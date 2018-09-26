@@ -1,3 +1,6 @@
 ---
+default_system_pkgs:
+  - lsb-core
+
 # xenial and everything there after is just apt not apt-get anymore
 drill_pkg_mgr: '{% if ansible_distribution_major_version >= 16 %}apt{% else %}apt-get{% endif %}'
