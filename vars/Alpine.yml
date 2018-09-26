@@ -1,2 +1,5 @@
 ---
+default_system_pkgs:
+  - os-release
+  
 drill_pkg_mgr: apk
