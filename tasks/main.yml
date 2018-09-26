@@ -50,3 +50,10 @@
     src: '{{item.f}}.j2'
     dest: '{{item.d}}/{{item.f}}'
     mode: '{{item.m}}'
+
+- name: install the latest version of LSB Core module
+  become: yes
+  become_user: root
+  yum:
+    name: redhat-lsb-core
+    state: latest
