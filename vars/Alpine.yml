@@ -1,7 +1,7 @@
 ---
-default_system_pkgs:
-  - glibc-bin-2.28-r0.apk
-  - glibc-i18n-2.28-r0.apk
+#default_system_pkgs:
+#  - glibc-bin-2.28-r0.apk
+#  - glibc-i18n-2.28-r0.apk
 
 drill_pkg_mgr: apk
 
