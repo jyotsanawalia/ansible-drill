@@ -1,5 +1,0 @@
----
-drill_pkg_update_cmds:
-  - pacman -Syu
-drill_pkg_templates:
-  - etc/pacman.conf

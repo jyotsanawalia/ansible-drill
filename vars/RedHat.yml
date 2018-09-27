@@ -1,5 +1,2 @@
 ---
-default_system_pkgs:
-  - redhat-lsb-core
-  
 drill_pkg_mgr: yum

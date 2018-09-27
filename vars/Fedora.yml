@@ -1,5 +1,2 @@
 ---
-default_system_pkgs:
-  - fedora-release
-  
 drill_pkg_mgr: dnf

@@ -1,5 +1,2 @@
 ---
-default_system_pkgs:
-  - lsb-core
-  
 drill_pkg_mgr: apt-get

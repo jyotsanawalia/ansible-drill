@@ -1,5 +1,2 @@
 ---
-default_system_pkgs:
-  - lsb-release
-  
-drill_pkg_mgr: pacman
+drill_pkg_mgr: apk
