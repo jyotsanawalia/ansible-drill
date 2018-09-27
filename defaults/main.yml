@@ -1,5 +1,5 @@
 ---
-drill_ver : '1.13.0'
+drill_ver : '1.14.0'
 drill_mirror : http://www-us.apache.org/dist/drill
 
 drill_checksums:
