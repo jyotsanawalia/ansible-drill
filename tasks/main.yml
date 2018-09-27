@@ -61,6 +61,12 @@
     dest: '{{item.d}}/{{item.f}}'
     mode: '{{item.m}}'
 
+- name: Update package-manager cache
+  become: yes
+  become_user: root
+  when: ansible_distribution == 'Alpine'
+  command: '{{drill_base_pkg_manager_update_cmd}}'
+
 - name: install glibc for Alpine
   become: yes
   become_user: root
@@ -69,3 +75,5 @@
     name: '{{ item }}'
     state: present
   with_items: '{{ default_system_pkgs }}'
+
+

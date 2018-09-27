@@ -1,5 +1,8 @@
 ---
 default_system_pkgs:
-  - glibc
+  - glibc-bin-2.28-r0.apk
+  - glibc-i18n-2.28-r0.apk
 
 drill_pkg_mgr: apk
+
+drill_base_pkg_manager_update_cmd: apk update
