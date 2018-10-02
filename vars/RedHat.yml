@@ -1,8 +1,5 @@
 ---
 drill_pkg_mgr: yum
-<<<<<<< HEAD
 
 default_system_pkgs: 
   - which
-=======
->>>>>>> 7d2da594a6398550119241f2d484562694eee58e

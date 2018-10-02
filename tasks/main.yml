@@ -9,7 +9,6 @@
 - name: include package manager specific vars
   include_vars: "{{drill_pkg_mgr}}.yml"
 
-<<<<<<< HEAD
 - name: install system packages required for drill-config
   become: yes
   become_user: root
@@ -19,8 +18,6 @@
     state: present
   with_items: '{{ default_system_pkgs }}'
 
-=======
->>>>>>> 7d2da594a6398550119241f2d484562694eee58e
 - name: check for install
   become: yes
   stat:
