@@ -12,7 +12,6 @@
 - name: install system packages required for drill-config
   become: yes
   become_user: root
-  when: ansible_distribution == 'RedHat'
   package:
     name: '{{ item }}'
     state: present
