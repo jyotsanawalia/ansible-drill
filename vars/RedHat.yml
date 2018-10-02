@@ -1,2 +1,5 @@
 ---
 drill_pkg_mgr: yum
+
+default_system_pkgs:
+  - which
