@@ -2,4 +2,4 @@
 drill_pkg_mgr: apt-get
 
 default_system_pkgs:
-  - which
+  - debianutils

@@ -3,4 +3,4 @@
 drill_pkg_mgr: '{% if ansible_distribution_major_version >= 16 %}apt{% else %}apt-get{% endif %}'
 
 default_system_pkgs:
-  - which
+  - debianutils
