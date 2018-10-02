@@ -1,2 +1,5 @@
 ---
 drill_pkg_mgr: dnf
+
+default_system_pkgs:
+  - which

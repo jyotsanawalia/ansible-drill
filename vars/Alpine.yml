@@ -1,2 +1,5 @@
 ---
 drill_pkg_mgr: apk
+
+default_system_pkgs:
+  - which
